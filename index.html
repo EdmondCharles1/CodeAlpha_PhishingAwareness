@@ -28,15 +28,225 @@
     </nav>
 
     <!-- Section 1: Introduction -->
+    <!-- Section 1: Introduction -->
     <section id="intro" class="section active">
-      <h1>What is Phishing?</h1>
-      <p>Content coming soon...</p>
+      <h1>What is Phishing? 🎣</h1>
+      <p class="intro-text">
+        Phishing is a type of cyber attack where attackers disguise themselves
+        as trustworthy entities to trick you into revealing sensitive
+        information — passwords, credit card numbers, personal data, or login
+        credentials.
+      </p>
+
+      <div class="stat-grid">
+        <div class="info-card">
+          <div class="info-icon">📧</div>
+          <div class="info-number">3.4 billion</div>
+          <div class="info-desc">phishing emails sent every day worldwide</div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">💰</div>
+          <div class="info-number">$17,700</div>
+          <div class="info-desc">lost every minute due to phishing attacks</div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">🏢</div>
+          <div class="info-number">83%</div>
+          <div class="info-desc">
+            of organizations experienced phishing in 2023
+          </div>
+        </div>
+      </div>
+
+      <h2>Types of Phishing</h2>
+      <div class="types-grid">
+        <div class="type-card">
+          <h3>📧 Email Phishing</h3>
+          <p>
+            Mass emails pretending to be from banks, companies, or services you
+            use. The most common type.
+          </p>
+        </div>
+        <div class="type-card">
+          <h3>🎯 Spear Phishing</h3>
+          <p>
+            Targeted attacks aimed at a specific person or organization, using
+            personal details to seem legitimate.
+          </p>
+        </div>
+        <div class="type-card">
+          <h3>🐋 Whaling</h3>
+          <p>
+            Spear phishing targeting high-level executives (CEOs, CFOs). The
+            "big fish" of phishing.
+          </p>
+        </div>
+        <div class="type-card">
+          <h3>💬 Smishing</h3>
+          <p>
+            Phishing via SMS text messages. "Your package is delayed, click here
+            to track it."
+          </p>
+        </div>
+        <div class="type-card">
+          <h3>📞 Vishing</h3>
+          <p>
+            Voice phishing through phone calls. Attackers pretend to be tech
+            support, banks, or government.
+          </p>
+        </div>
+        <div class="type-card">
+          <h3>🌐 Clone Phishing</h3>
+          <p>
+            A legitimate email is cloned and resent with malicious links
+            replacing the original ones.
+          </p>
+        </div>
+      </div>
+
+      <div class="next-section">
+        <button class="next-btn" onclick="showSection('emails')">
+          Next: How to Spot Phishing Emails →
+        </button>
+      </div>
     </section>
 
     <!-- Section 2: Phishing Emails -->
+    <!-- Section 2: Phishing Emails -->
     <section id="emails" class="section">
-      <h1>How to Spot a Phishing Email</h1>
-      <p>Content coming soon...</p>
+      <h1>How to Spot a Phishing Email 📧</h1>
+      <p class="intro-text">
+        Phishing emails are designed to look legitimate. Here are the red flags
+        to watch for before clicking anything.
+      </p>
+
+      <h2>Anatomy of a Phishing Email</h2>
+      <div class="email-example">
+        <div class="email-header">
+          <div class="email-field">
+            <span class="field-label">From:</span>
+            <span class="field-value suspicious"
+              >support@paypa1-secure.com</span
+            >
+            <span class="red-flag"
+              >⚠️ Look closely: "paypa1" not "paypal" (1 instead of l)</span
+            >
+          </div>
+          <div class="email-field">
+            <span class="field-label">To:</span>
+            <span class="field-value">you@email.com</span>
+          </div>
+          <div class="email-field">
+            <span class="field-label">Subject:</span>
+            <span class="field-value suspicious"
+              >⚠️ URGENT: Your account will be suspended in 24 hours!</span
+            >
+            <span class="red-flag">⚠️ Creates panic and urgency</span>
+          </div>
+        </div>
+        <div class="email-body">
+          <p>Dear Valued Customer,</p>
+          <p class="suspicious">
+            We have detected unusual activity on your account. Your account will
+            be <strong>permanently suspended</strong> unless you verify your
+            identity within 24 hours.
+          </p>
+          <span class="red-flag">⚠️ Generic greeting, not your name</span>
+          <p>Click the link below to verify your account:</p>
+          <a class="fake-link" href="#"
+            >https://paypa1-secure.com/verify-account</a
+          >
+          <span class="red-flag">⚠️ Fake URL — not the real PayPal domain</span>
+          <p class="suspicious">
+            If you do not act now, your funds will be frozen and your account
+            deleted.
+          </p>
+          <span class="red-flag"
+            >⚠️ Threatening language to force quick action</span
+          >
+          <p>Best regards,<br />PayPal Security Team</p>
+        </div>
+      </div>
+
+      <h2>The 7 Red Flags</h2>
+      <div class="flags-list">
+        <div class="flag-item">
+          <div class="flag-number">1</div>
+          <div class="flag-content">
+            <h3>Suspicious sender address</h3>
+            <p>
+              Check the actual email domain. "support@paypa1.com" is not
+              "support@paypal.com".
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">2</div>
+          <div class="flag-content">
+            <h3>Urgency and threats</h3>
+            <p>
+              "Act now!", "Your account will be deleted!", "You have 24 hours!"
+              — legitimate companies don't threaten you.
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">3</div>
+          <div class="flag-content">
+            <h3>Generic greetings</h3>
+            <p>
+              "Dear Customer" or "Dear User" instead of your actual name. Real
+              companies know your name.
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">4</div>
+          <div class="flag-content">
+            <h3>Suspicious links</h3>
+            <p>
+              Hover over links before clicking. The URL should match the
+              company's real domain.
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">5</div>
+          <div class="flag-content">
+            <h3>Spelling and grammar errors</h3>
+            <p>
+              Professional companies proofread their emails. Multiple errors are
+              a big red flag.
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">6</div>
+          <div class="flag-content">
+            <h3>Requests for personal information</h3>
+            <p>
+              No legitimate company will ask for your password, SSN, or credit
+              card via email.
+            </p>
+          </div>
+        </div>
+        <div class="flag-item">
+          <div class="flag-number">7</div>
+          <div class="flag-content">
+            <h3>Unexpected attachments</h3>
+            <p>
+              Don't open attachments you weren't expecting, especially .exe,
+              .zip, or .doc files with macros.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-section">
+        <button class="next-btn" onclick="showSection('websites')">
+          Next: Fake Websites →
+        </button>
+      </div>
     </section>
 
     <!-- Section 3: Fake Websites -->

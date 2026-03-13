@@ -288,3 +288,140 @@ nav {
   color: #94a3b8;
   line-height: 1.5;
 }
+/* ---- URL Comparison ---- */
+.url-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.url-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #334155;
+}
+
+.url-card.legit {
+  border-color: #34d399;
+}
+.url-card.fake {
+  border-color: #f87171;
+}
+
+.url-label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.url-card.legit .url-label {
+  color: #34d399;
+}
+.url-card.fake .url-label {
+  color: #f87171;
+}
+
+.url-bar {
+  background: #0f172a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.url-checks {
+  list-style: none;
+  font-size: 13px;
+  color: #94a3b8;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* ---- Tricks grid ---- */
+.tricks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.trick-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+
+.trick-card:hover {
+  border-color: #f87171;
+}
+.trick-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.trick-card p {
+  font-size: 13px;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+.trick-example {
+  background: #0f172a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  color: #f87171;
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+/* ---- Verify steps ---- */
+.verify-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.verify-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.step-num {
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.step-content h3 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.step-content p {
+  font-size: 13px;
+  color: #94a3b8;
+  line-height: 1.5;
+}

@@ -112,7 +112,6 @@
     </section>
 
     <!-- Section 2: Phishing Emails -->
-    <!-- Section 2: Phishing Emails -->
     <section id="emails" class="section">
       <h1>How to Spot a Phishing Email 📧</h1>
       <p class="intro-text">
@@ -250,9 +249,142 @@
     </section>
 
     <!-- Section 3: Fake Websites -->
+    <!-- Section 3: Fake Websites -->
     <section id="websites" class="section">
-      <h1>How to Recognize Fake Websites</h1>
-      <p>Content coming soon...</p>
+      <h1>How to Recognize Fake Websites 🌐</h1>
+      <p class="intro-text">
+        Phishing emails often lead to fake websites that look identical to real
+        ones. Here's how to tell the difference before entering your
+        information.
+      </p>
+
+      <h2>Spot the Fake URL</h2>
+      <div class="url-comparison">
+        <div class="url-card legit">
+          <div class="url-label">✅ Legitimate</div>
+          <div class="url-bar">
+            <span class="lock">🔒</span>
+            <span>https://<strong>www.paypal.com</strong>/login</span>
+          </div>
+          <ul class="url-checks">
+            <li>✅ Correct domain name</li>
+            <li>✅ HTTPS with padlock</li>
+            <li>✅ Simple, clean URL</li>
+          </ul>
+        </div>
+        <div class="url-card fake">
+          <div class="url-label">❌ Phishing</div>
+          <div class="url-bar">
+            <span class="lock">⚠️</span>
+            <span
+              >http://<strong>paypal-secure-login.sketchy-site.com</strong>/verify</span
+            >
+          </div>
+          <ul class="url-checks">
+            <li>❌ "paypal" is a subdomain, not the real domain</li>
+            <li>❌ No HTTPS (http only)</li>
+            <li>❌ Suspicious extra words in URL</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Common Tricks Attackers Use</h2>
+      <div class="tricks-grid">
+        <div class="trick-card">
+          <h3>🔤 Lookalike Domains</h3>
+          <div class="trick-example">
+            <code>go0gle.com</code> (zero instead of "o")<br />
+            <code>arnazon.com</code> ("rn" looks like "m")<br />
+            <code>paypa1.com</code> ("1" instead of "l")
+          </div>
+          <p>
+            Attackers register domains that look almost identical to real ones.
+          </p>
+        </div>
+        <div class="trick-card">
+          <h3>📎 Subdomain Tricks</h3>
+          <div class="trick-example">
+            <code>paypal.com.evil-site.com</code><br />
+            <code>login.amazon.fake-domain.net</code>
+          </div>
+          <p>
+            The real domain is the last part before the slash. Everything before
+            it is a subdomain that anyone can create.
+          </p>
+        </div>
+        <div class="trick-card">
+          <h3>🔒 Fake HTTPS</h3>
+          <div class="trick-example">
+            HTTPS ≠ Safe<br />
+            Attackers can get free SSL certificates
+          </div>
+          <p>
+            HTTPS means the connection is encrypted, not that the website is
+            legitimate. Always check the domain name too.
+          </p>
+        </div>
+        <div class="trick-card">
+          <h3>⏰ Urgency Popups</h3>
+          <div class="trick-example">
+            "Your session expires in 2:00!"<br />
+            "Account locked! Verify now!"
+          </div>
+          <p>
+            Fake countdown timers and alert popups pressure you into acting
+            without thinking.
+          </p>
+        </div>
+      </div>
+
+      <h2>How to Verify a Website</h2>
+      <div class="verify-steps">
+        <div class="verify-step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Check the URL carefully</h3>
+            <p>
+              Read the domain from right to left. The real domain is right
+              before the first single slash "/".
+            </p>
+          </div>
+        </div>
+        <div class="verify-step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Don't click links from emails</h3>
+            <p>
+              Type the website address manually in your browser instead of
+              clicking email links.
+            </p>
+          </div>
+        </div>
+        <div class="verify-step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Look for poor design quality</h3>
+            <p>
+              Blurry logos, broken layouts, missing pages, or strange fonts are
+              signs of a fake site.
+            </p>
+          </div>
+        </div>
+        <div class="verify-step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h3>Use a search engine</h3>
+            <p>
+              Search for the company name and use the official link from search
+              results, not from the email.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-section">
+        <button class="next-btn" onclick="showSection('social')">
+          Next: Social Engineering →
+        </button>
+      </div>
     </section>
 
     <!-- Section 4: Social Engineering -->

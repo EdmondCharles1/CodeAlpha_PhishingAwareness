@@ -389,14 +389,243 @@
 
     <!-- Section 4: Social Engineering -->
     <section id="social" class="section">
-      <h1>Social Engineering Tactics</h1>
-      <p>Content coming soon...</p>
+      <h1>Social Engineering Tactics 🎭</h1>
+      <p class="intro-text">
+        Social engineering is the art of manipulating people into giving up
+        confidential information. Phishing is just one form of it. Understanding
+        the psychology behind these attacks is your best defense.
+      </p>
+
+      <h2>The 6 Principles of Manipulation</h2>
+      <p class="sub-text">
+        Attackers exploit these basic human instincts to trick their victims:
+      </p>
+      <div class="principles-grid">
+        <div class="principle-card">
+          <div class="principle-icon">⏰</div>
+          <h3>Urgency</h3>
+          <p>"Your account will be deleted in 1 hour!"</p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> Panic stops you from thinking
+            clearly. You act before you analyze.
+          </div>
+        </div>
+        <div class="principle-card">
+          <div class="principle-icon">👔</div>
+          <h3>Authority</h3>
+          <p>
+            "This is the IT department. We need your password for a security
+            update."
+          </p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> People tend to obey figures of
+            authority without questioning.
+          </div>
+        </div>
+        <div class="principle-card">
+          <div class="principle-icon">😨</div>
+          <h3>Fear</h3>
+          <p>
+            "We detected a virus on your computer. Call this number
+            immediately."
+          </p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> Fear overrides logic. Scared people
+            make poor decisions.
+          </div>
+        </div>
+        <div class="principle-card">
+          <div class="principle-icon">🎁</div>
+          <h3>Greed</h3>
+          <p>"Congratulations! You've won a $1000 gift card. Claim it now!"</p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> The promise of free rewards makes
+            people ignore warning signs.
+          </div>
+        </div>
+        <div class="principle-card">
+          <div class="principle-icon">🤝</div>
+          <h3>Trust</h3>
+          <p>
+            "Hey, it's John from accounting. Can you send me the client list?"
+          </p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> We naturally trust people who seem
+            familiar or friendly.
+          </div>
+        </div>
+        <div class="principle-card">
+          <div class="principle-icon">❤️</div>
+          <h3>Helpfulness</h3>
+          <p>
+            "I'm locked out of my account, can you let me in? I have a meeting
+            in 5 minutes."
+          </p>
+          <div class="principle-why">
+            <strong>Why it works:</strong> Most people want to help others,
+            especially in stressful situations.
+          </div>
+        </div>
+      </div>
+
+      <h2>Real-World Attack Scenarios</h2>
+      <div class="scenarios">
+        <div class="scenario-card">
+          <div class="scenario-header">
+            <span class="scenario-tag">CEO Fraud</span>
+            <span class="scenario-severity high">High Risk</span>
+          </div>
+          <p class="scenario-story">
+            An employee receives an email from the "CEO" asking for an urgent
+            wire transfer to a new vendor. The email address looks real but is
+            slightly different:
+            <code>ceo@company-inc.com</code> instead of
+            <code>ceo@company.com</code>.
+          </p>
+          <div class="scenario-result">
+            <strong>Result:</strong> $47 million lost — this happened to
+            Ubiquiti Networks in 2015.
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-header">
+            <span class="scenario-tag">Tech Support Scam</span>
+            <span class="scenario-severity medium">Medium Risk</span>
+          </div>
+          <p class="scenario-story">
+            A popup appears on your screen: "VIRUS DETECTED! Call Microsoft
+            Support at 1-800-XXX". You call, and they ask you to install remote
+            access software so they can "fix" your computer.
+          </p>
+          <div class="scenario-result">
+            <strong>Result:</strong> The attacker installs malware and steals
+            personal files, passwords, and banking info.
+          </div>
+        </div>
+        <div class="scenario-card">
+          <div class="scenario-header">
+            <span class="scenario-tag">USB Drop Attack</span>
+            <span class="scenario-severity high">High Risk</span>
+          </div>
+          <p class="scenario-story">
+            An attacker drops a USB drive labeled "Salary Report 2024" in your
+            office parking lot. A curious employee plugs it in — the USB
+            installs a backdoor on the company network.
+          </p>
+          <div class="scenario-result">
+            <strong>Result:</strong> In a University of Illinois study, 48% of
+            people plugged in unknown USB drives they found.
+          </div>
+        </div>
+      </div>
+
+      <h2>How to Protect Yourself</h2>
+      <div class="protection-grid">
+        <div class="protection-item">
+          <div class="protection-icon">🛑</div>
+          <h3>Stop and Think</h3>
+          <p>
+            If something feels urgent, slow down. That urgency is exactly what
+            the attacker wants.
+          </p>
+        </div>
+        <div class="protection-item">
+          <div class="protection-icon">✅</div>
+          <h3>Verify Independently</h3>
+          <p>
+            Call the person or company directly using a known number, not the
+            one in the email.
+          </p>
+        </div>
+        <div class="protection-item">
+          <div class="protection-icon">🔐</div>
+          <h3>Never Share Credentials</h3>
+          <p>
+            No legitimate organization will ever ask for your password via
+            email, phone, or chat.
+          </p>
+        </div>
+        <div class="protection-item">
+          <div class="protection-icon">📢</div>
+          <h3>Report Suspicious Activity</h3>
+          <p>
+            Tell your IT team immediately. One report can prevent an entire
+            company from being compromised.
+          </p>
+        </div>
+      </div>
+
+      <div class="next-section">
+        <button class="next-btn" onclick="showSection('quiz')">
+          Next: Test Your Knowledge →
+        </button>
+      </div>
     </section>
 
     <!-- Section 5: Quiz -->
+    <!-- Section 5: Quiz -->
     <section id="quiz" class="section">
-      <h1>Test Your Knowledge</h1>
-      <p>Quiz coming soon...</p>
+      <h1>Test Your Knowledge 🧠</h1>
+      <p class="intro-text">
+        Can you spot the phishing attempts? Answer these questions to test what
+        you've learned.
+      </p>
+
+      <!-- Quiz container -->
+      <div id="quizContainer">
+        <div class="quiz-progress">
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+          <span class="progress-text" id="progressText">Question 1 / 8</span>
+        </div>
+
+        <div class="quiz-question" id="questionCard">
+          <h2 id="questionText"></h2>
+          <div id="questionContext" class="question-context"></div>
+          <div class="options" id="optionsContainer"></div>
+          <div class="feedback" id="feedback"></div>
+          <button
+            class="next-btn quiz-next"
+            id="nextBtn"
+            onclick="nextQuestion()"
+            style="display: none"
+          >
+            Next Question →
+          </button>
+        </div>
+      </div>
+
+      <!-- Results screen -->
+      <div id="quizResults" style="display: none">
+        <div class="results-card">
+          <div class="results-icon" id="resultsIcon"></div>
+          <h2 id="resultsTitle"></h2>
+          <p class="results-score">You scored <span id="scoreText"></span></p>
+          <div class="results-breakdown" id="resultsBreakdown"></div>
+          <div class="results-tips">
+            <h3>Key Takeaways</h3>
+            <div class="tips-list">
+              <div class="tip-item">
+                🔍 Always check the sender's email address carefully
+              </div>
+              <div class="tip-item">
+                🔗 Hover over links before clicking — verify the real URL
+              </div>
+              <div class="tip-item">
+                ⏰ Be suspicious of urgency and threats in messages
+              </div>
+              <div class="tip-item">
+                🔐 Never share passwords or personal info via email
+              </div>
+              <div class="tip-item">
+                📞 When in doubt, contact the company directly
+              </div>
+            </div>
+          </div>
+          <button class="next-btn" onclick="restartQuiz()">Retake Quiz</button>
+        </div>
+      </div>
     </section>
 
     <script src="js/app.js"></script>

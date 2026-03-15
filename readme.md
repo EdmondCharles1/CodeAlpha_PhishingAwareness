@@ -94,7 +94,7 @@ Interactive Quiz      8 questions → score → key takeaways
 
 ## Author
 
-Built by **Edy** as part of the [CodeAlpha](https://www.codealpha.tech) Cybersecurity Internship.
+Built by **Claud Edmond Charles** as part of the [CodeAlpha](https://www.codealpha.tech) Cybersecurity Internship.
 
 ## License
 
